@@ -1,0 +1,24 @@
+package com.dtcc.workshop.models;
+
+public class Order {
+	// single line
+	/* 
+	 * multi line
+	 */
+	
+	// Type 1:
+	// Object member variables
+	// Accessible through objects
+	// if we create 100 objects new Order()...
+	// 100 copies of id and amount shall be created
+	public String id;
+	public int  amount;
+	
+	// Type 2: Static type
+	// Accessible through Class
+	// Order.OrderType
+	// only one instance of OrderType created
+	public static String OrderType = "ORDER";
+	
+	
+}

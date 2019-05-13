@@ -1,0 +1,12 @@
+package com.dtcc.workshop.models;
+
+public class Order {
+	// single line
+	/* 
+	 * multi line
+	 */
+	
+	// member variables
+	public String id;
+	public int  amount;
+}

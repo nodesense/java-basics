@@ -1,0 +1,7 @@
+package com.dtcc.workshop;
+
+public class Tiger extends Animal {
+	public void talk() {
+		System.out.println("Tiger Talk");
+	}
+}

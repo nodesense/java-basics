@@ -1,0 +1,20 @@
+package com.dtcc.workshop;
+
+public class Inheritance {
+	public static void main(String[] args) {
+		System.out.println("Inheritance");
+		// Animal a = new Animal(); // fails, since Animal is an abstract class
+		Lion l1 = new Lion();
+		
+		// l1.name = "Hello";
+		l1.setName("Lion1");
+		l1.show();
+		
+		Animal a = l1; // is a
+		a.setName("Lion 2");
+		l1.show();
+		
+		Lion l2 = a;
+		
+	}
+}

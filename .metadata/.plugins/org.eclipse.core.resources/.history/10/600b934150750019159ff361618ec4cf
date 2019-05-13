@@ -1,0 +1,12 @@
+package com.dtcc.workshop;
+
+import com.dtcc.workshop.models.Order;
+
+public class Main {
+	public static void main(String[] args) {
+		Order order = new Order();
+		order.id = "434343";
+		order.amount = 4000;
+		
+	}
+}

@@ -1,0 +1,9 @@
+package com.dtcc.workshop;
+
+public class Inheritance {
+	public static void main(String[] args) {
+		System.out.println("Inheritance");
+		// Animal a = new Animal(); // fails, since Animal is an abstract class
+		Lion l1 = new Lion();
+	}
+}

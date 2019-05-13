@@ -1,0 +1,22 @@
+package com.dtcc.workshop;
+
+import com.dtcc.workshop.models.Order;
+
+public class Main {
+	
+	public static int add(int a, int b) {
+		int c = a + b;
+		return c;
+	}
+	
+	public static void main(String[] args) {
+		Order order = new Order();
+		order.id = "434343";
+		order.amount = 4000;
+		
+		System.out.println(order.id);
+		int sum = add(10, 20);
+		System.out.println(sum);
+		
+	}
+}

@@ -1,0 +1,36 @@
+package com.dtcc.workshop;
+
+import com.dtcc.workshop.models.Order;
+
+public class Main {
+	
+	public static int add(int a, int b) {
+		int c = a + b;
+		return c;
+	}
+	
+	public static void main(String[] args) {
+		Order order = new Order();
+		order.id = "434343";
+		order.amount = 4000;
+		order.discount = 10;
+		
+		// order is an object
+		// id is member of the order object
+		System.out.println(order.id);
+		
+		// static variable
+		System.out.println(Order.OrderType);
+		Order.OrderType = "WholesaleOrder";
+		
+		order.showPrice();
+		
+		int sum = add(10, 20);
+		System.out.println(sum);
+		
+		sum = add(100, 400);
+		System.out.println(sum);
+
+		
+	}
+}

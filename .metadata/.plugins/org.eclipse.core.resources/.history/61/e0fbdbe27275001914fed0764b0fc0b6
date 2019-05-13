@@ -1,0 +1,16 @@
+package com.dtcc.workshop;
+
+// extends is to inherit from base/parent class
+public class Lion extends Animal {
+	
+	public void show() {
+		System.out.println("Lion Name " + getName());
+	}
+	
+	// "" + lion, should invoke toString automatically
+	// override the default toString method
+//	public String toString() {
+//		System.out.println("Lion's toString called");;
+//		return "Name " + getName() + "  color " + getColor();
+//	}
+}

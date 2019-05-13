@@ -1,0 +1,6 @@
+package com.dtcc.workshop;
+
+// extends is to inherit from base/parent class
+abstract public class Lion extends Animal {
+
+}

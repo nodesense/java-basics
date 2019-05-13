@@ -1,0 +1,23 @@
+package com.dtcc.workshop;
+
+// @ is called annotation, add meta data
+
+// extends is to inherit from base/parent class
+public class Lion extends Animal {
+	
+	// overriding base class's show() method
+	
+	public void show() {
+		// to call base class method
+		super.show(); // super keyword refers to base/parent class
+		System.out.println("Lion Name " + getName());
+	}
+	
+	// "" + lion, should invoke toString automatically
+	// override the default toString method
+	@Override
+	public String toString() {
+		System.out.println("Lion's toString called");;
+		return "Name " + getName() + "  color " + getColor();
+	}
+}

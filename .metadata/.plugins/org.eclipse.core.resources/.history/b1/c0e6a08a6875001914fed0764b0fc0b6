@@ -1,0 +1,6 @@
+package com.dtcc.workshop;
+
+// abstract class, means, we cannot create instance/object
+abstract public class Animal {
+
+}

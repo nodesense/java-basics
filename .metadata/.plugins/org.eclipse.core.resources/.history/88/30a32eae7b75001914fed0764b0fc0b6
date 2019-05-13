@@ -1,0 +1,17 @@
+package com.dtcc.workshop;
+
+public class Polymorphism {
+	public static void main(String args[]) {
+		Person p = new Person();
+		
+		Teacher teacher = p;
+		Driver driver = p;
+		Coder coder = p;
+		
+		teacher.teach();
+		// teacher.drive(); //error since drive is not teachers interface method
+		driver.drive();
+		
+		coder.code();
+	}
+}

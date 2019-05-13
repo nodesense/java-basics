@@ -1,0 +1,9 @@
+package com.dtcc.workshop;
+
+// can be relation
+// implement the interface contract
+public class Person implements Driver {
+	void drive() {
+		
+	}
+}
